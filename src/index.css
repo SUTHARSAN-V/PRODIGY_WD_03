@@ -1,0 +1,7 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/wp8984722.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: -30% 15%; /* Moves the background 10% to the left and 60% down */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  font-family: Arial, sans-serif;
+}

@@ -1,0 +1,52 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    position: relative;
+    top: -140px; /* Move the title upwards without disrupting layout */
+    font-size: 2em;
+  }
+  
+  .board {
+    margin-top: -150px; /* Keeps the game layout upwards */
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    position: absolute; /* Absolute positioning */
+    bottom: 170px; /* Keeps button position at the bottom */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
